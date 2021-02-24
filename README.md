@@ -1,4 +1,5 @@
 # RN-Challenge
+
 WellMart is a team of fun, fast, and friendly builders. Everyone from interns to the CEO have some level of technical skill. Everyone is judged based on their creation and outcome. Not their background. Not their appearances.
 
 We welcome all kinds of builders, creators, and designers. This challenge is specifically for developers. We don't care much about your resume. If you think you can build awesome products and learn fast. This challenge is for you.
@@ -6,15 +7,19 @@ We welcome all kinds of builders, creators, and designers. This challenge is spe
 This is a set of open ended challenges for you to show us your skills. Clone this repo, build an awesome app, and open a PR. The whole team will review your creation.
 
 ## Instructions
+
 ### 1. Learn
-- Feel free to learn from any resources. [React Native Website](https://reactnative.dev), [YouTube](https://www.youtube.com/results?search_query=react+native+tutorial), etc. 
+
+- Feel free to learn from any resources. [React Native Website](https://reactnative.dev), [YouTube](https://www.youtube.com/results?search_query=react+native+tutorial), etc.
 - We have a udemy account you can borrow (reach out to contact@wellmart.id). This one is really good. Please reach out!
 
 ### 2. Build
+
 - You have 1 week to complete the challenge. We can see the commits timeline
 - Implementation (code) and design (UI/UX) will be evaluated
 
 ### 3. Show
+
 - Impress us with your skills
 - Go beyond the requirements
 - Beat the competition
@@ -22,6 +27,7 @@ This is a set of open ended challenges for you to show us your skills. Clone thi
 - Win
 
 ### Submissions
+
 - Setup your dev environment by following this ([React Native Getting started Guide](https://reactnative.dev/docs/getting-started))
 - Clone the challenge repository
 - Create a dedicated branch
@@ -32,6 +38,7 @@ This is a set of open ended challenges for you to show us your skills. Clone thi
 - Notify us. Please send an email to contact@wellmart.id
 
 ### Suggestions
+
 - Make it easy for us to try your app. Add instructions on how to run your demo. There's a section below you can fill in
 - Don't be afraid if you're still a newbie. We will judge what you built adjusted with your experience. If you're just starting out, but can learn fast. We want you :)
 - Make something fun. We love to party too! :D
@@ -40,12 +47,15 @@ This is a set of open ended challenges for you to show us your skills. Clone thi
 - Be prepared to explain your decisions and your thought process in the next interview. We're curious about how you think! :)
 
 ## Challenge
+
 Joko is a very responsible and organized person. He writes down all his to-do items in a day. And clears all the things he needs to do before the day ends
 
 Create a React Native app where Joko can keep track of the things he need to do in his day
 
 ## Requirements
+
 Your app should be able to complete these tasks:
+
 - Add a new to-do item
 - Mark a to-do item as done
 - Delete a to-do item
@@ -54,6 +64,7 @@ Your app should be able to complete these tasks:
 - Filter between completed and incomplete items
 
 ### Bonus:
+
 - Enable search for the to-do items
 - Include animations
 - Persist data using Contexts and/or Async Storage
@@ -63,4 +74,17 @@ Your app should be able to complete these tasks:
 - Somehow make this boring app fun! show some crazy pokemon animation or something :P
 
 ## How to run the demo
-(REPLACE THIS WITH YOUR INSTRUCTIONS)
+
+Clone this repo.
+
+Install all the dependencies, you can run:
+
+### `yarn install`
+
+To run the app, you can run:
+
+### `yarn start`
+
+During the development process, I use a physical cellphone to see the results of my code. So when you run `yarn start` and Expo DevTools are open, you can scan the barcode at the DevTools Expo.
+
+To see the results using a physical cellphone, make sure you have installed the Expo Go app on your Android or iPhone.

@@ -38,16 +38,16 @@ const todoReducer = (state, action) => {
 export const TodoProvider = ({ children }) => {
   const todos = [
     {
-      id: 'p1',
-      title: 'Pakai masker',
-      notes: 'Ingat pesan ibu',
+      id: '1',
+      title: 'Complete the requirement',
+      notes:
+        '1. Add a new to-do item 2. Mark a to-do item as done 3. Delete a to-do item 4. Edit a to-do item 5. Display all to-dos in a list or a grid 6. Filter between completed and incomplete items',
       complete: true,
     },
     {
-      id: 'p2',
-      title: 'Cuci tangan',
-      notes:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet minus veritatis rerum, officia aliquam corporis ad qui at? Animi, dolorum.',
+      id: '2',
+      title: 'Save data to a backend',
+      notes: 'Save data to a backend server (like firebase)',
       complete: false,
     },
   ];

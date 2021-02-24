@@ -73,16 +73,7 @@ const IndexScreen = ({ navigation }) => {
                   <TodoTitle complete={item.complete}>{item.title}</TodoTitle>
 
                   <TouchableOpacity onPress={() => onDelete(item.id)}>
-                    <FontAwesome
-                      style={
-                        item.complete
-                          ? { display: 'none' }
-                          : { display: 'flex' }
-                      }
-                      name='trash'
-                      size={24}
-                      color='#333'
-                    />
+                    <FontAwesome name='trash' size={24} color='#333' />
                   </TouchableOpacity>
 
                   <TouchableOpacity
